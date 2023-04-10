@@ -7,7 +7,7 @@ npm install -g browserify
 npm install -g envify
 ```
 
-To create the bundle, you can run the following command in your terminal:
+Then, you need to create the bundle.js file. You can do so by running the following command in your terminal:
 ```
 browserify index.js -t [ envify --TWILIO_ACCOUNT_SID ACXXXX --TWILIO_AUTH_TOKEN XXXX --TWILIO_PHONE_NUMBER +1XXXX ] > bundle.js
 ```
