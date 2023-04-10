@@ -1,5 +1,5 @@
 # webapp-otp-code
-This repo contains a simple code to send OTP message via SMS, Voice or WhatsApp
+This repo contains a simple code to send OTP message via SMS, Voice or WhatsApp.
 
 In order to create a bundle, you will need to install browserify and envify by running:
 ```
