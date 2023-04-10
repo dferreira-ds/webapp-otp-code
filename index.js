@@ -108,7 +108,7 @@ function sendOtp(channel, message){
             })
         } else if (channel === sendVoice){
             axios.post(`https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Calls.json`, qs.stringify({
-                Url: `https://handler.twilio.com/twiml/EH073ec66c09bef810861cf247d3f6ba63?OTP=${randomNumber}`,
+                Url: `https://handler.twilio.com/twiml/EHXXX?OTP=${randomNumber}`,
                 From: from,
                 To: country_code + to
             }), {
