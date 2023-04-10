@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS App</title>
+</head>
+<body>
+    <div class="container">
+        <select class="select-country" id="user-select"> <!-- https://gist.github.com/good-idea/cfe88c8ddf5656d8c779e9448b4a212a-->
+            <option value="None">Select your country</option>
+            <option value="CO">Colombia 🇨🇴 (+57)</option>
+            <option value="US">United States 🇺🇸 (+1)</option>
+            <option value="BR">Brazil 🇧🇷 (+55)</option>
+        </select>
+        
+        <input type="text" placeholder="Enter your number">
+        
+        <div class="message-registration">
+            <p>
+                You will receive a code to confirm your registration.
+            </p>
+        </div>
+        
+        <div class="submit-sms" type="submit">
+            <button>
+                <i class="fa-solid fa-comment-sms"></i>
+                    Receive code by SMS
+            </button>
+        </div>
+        
+        <div class="submit-call" type="submit">
+            <button>
+                <i class="fa-solid fa-phone"></i>
+                    Receive code by Phone Call
+            </button>
+        </div>
+
+        <div class="submit-whatsapp" type="submit">
+            <button>
+                <i class="fa-brands fa-whatsapp"></i>
+                    Receive code by WhatsApp
+            </button>
+        </div>
+
+        <div class="bad-request">
+            <img src="images/400.jpg" width="400px" height="400px">
+            <p>Oops! Invalid number :/</p>
+        </div>
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/5c7c337cf1.js" crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+    </div>
+
+</body>
+</html>

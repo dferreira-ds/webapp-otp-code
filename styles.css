@@ -1,0 +1,158 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #06283d;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 305px;
+    background: #fff;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.6s ease-out;
+    position: relative;
+}
+
+.select-country{
+    position: relative;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.message-registration{
+    font-size: 10px;
+    color: #9a9a9a;
+    position: absolute;
+    top: 15%;
+}
+
+.container input{
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.container input::placeholder{
+    font-size: 13px;
+    font-weight: 500;
+    color: #06283D;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.submit-sms button{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    height: 48px;
+    width: 250px;
+    font: inherit;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #06283D;
+    color: #fff;
+    font-size: 13px;   
+}
+
+.submit-sms button:hover{
+    background-color: #0a4569;
+    cursor: pointer;
+}
+
+.submit-call button{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    height: 48px;
+    width: 250px;
+    font: inherit;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #06283D;
+    color: #fff;
+    font-size: 13px;   
+}
+
+.submit-call button:hover{
+    background-color: #0a4569;
+    cursor: pointer;
+}
+
+.submit-whatsapp button{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    height: 48px;
+    width: 250px;
+    font: inherit;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #06283D;
+    color: #fff;
+    font-size: 13px;   
+}
+
+.submit-whatsapp button:hover{
+    background-color: #0a4569;
+    cursor: pointer;
+}
+
+.fa-solid{
+    position: absolute;
+    color: #fff;
+    top: 38%;
+    left: 8%;
+    font-size: 14px;
+}
+
+.fa-brands{
+    position: absolute;
+    color: #fff;
+    top: 38%;
+    left: 8%;
+    font-size: 14px;
+}
+
+.bad-request{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    scale: 0;
+    opacity: 0;
+    display: none;
+}
+
+.bad-request img{
+    width: 70%;
+}
+
+.bad-request p{
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
